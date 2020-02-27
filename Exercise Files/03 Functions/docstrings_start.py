@@ -2,6 +2,12 @@
 
 
 def myFunction(arg1, arg2=None):
+    """
+    just prints parameters
+    :param arg1:
+    :param arg2:
+    :return:
+    """
     print(arg1, arg2)
 
 
