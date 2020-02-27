@@ -15,7 +15,12 @@ def main():
 
     # TODO: Use regular functions to convert temps
 
+    print(list(map(FahrenheitToCelsisus, ftemps)))
+    print(list(map(CelsisusToFahrenheit, ctemps)))
+
     # TODO: Use lambdas to accomplish the same thing
+    print(list(map(lambda t: (t-32) * 5/9, ftemps)))
+    print(list(map(lambda t: (t * 9/5) + 32 ,ctemps)))
 
 
 if __name__ == "__main__":
